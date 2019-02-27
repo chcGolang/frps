@@ -3,7 +3,7 @@
 * 版本: 0.24.1
 * 官方中文文档:[https://github.com/fatedier/frp/blob/master/README_zh.md](https://github.com/fatedier/frp/blob/master/README_zh.md)
 ## 启动命令
-```
+```bash
 docker run --name frps -d \
 -p 7000:7000/tcp \
 -p 7000:7000/udp \

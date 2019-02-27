@@ -20,6 +20,8 @@ RUN apk update \
         && /bin/bash
 
 EXPOSE 7000 7001 7500
+VOLUME /frps/log
+VOLUME /frps/conf
 
 ADD frps.sh /frps.sh
 RUN chmod +x /frps.sh /frps/frps

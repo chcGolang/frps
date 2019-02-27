@@ -3,18 +3,18 @@
 * 版本: 0.24.1
 * 官方中文文档:[https://github.com/fatedier/frp/blob/master/README_zh.md](https://github.com/fatedier/frp/blob/master/README_zh.md)
 ## 启动命令
-```bash
-docker run --name frps -d \
--p 7000:7000/tcp \
--p 7000:7000/udp \
--p 7001:7001/udp \
--p 7500:7500/tcp \
--e set_token=password \
--e set_max_pool_count=50 \
--e set_log_level=info \
--e set_log_max_days=3 \
-chcgolang/frps:latest
-```
+	```bash
+	docker run --name frps -d \
+	-p 7000:7000/tcp \
+	-p 7000:7000/udp \
+	-p 7001:7001/udp \
+	-p 7500:7500/tcp \
+	-e set_token=password \
+	-e set_max_pool_count=50 \
+	-e set_log_level=info \
+	-e set_log_max_days=3 \
+	chcgolang/frps:latest
+	```
 
 ## 端口说明
 

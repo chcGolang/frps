@@ -33,8 +33,6 @@
 | :-------------------------- |:-----------:| :------------------------------------------------ |
 | set_token                   | password    | frps的认证密码，用于客户端连接                         |
 | set_subdomain_host          |             | frps子域名设置，默认为空，可以输入类似abc.com这样的域名   |
-| set_dashboard_user          | admin       | frps控制台用户名                                    |
-| set_dashboard_pwd           | admin       | frps控制台密码                                      |
 | set_max_pool_count          | 50          | 每个代理可以创建的连接池上限<br>客户端设置超过此配置后会被调整到当前                          |
 | set_max_ports_per_client    | 0           | 允许连入的最大客户端，0为不限制                        |
 | set_log_level               | info        | 日志等级，可选项：debug, info, warn, error           |

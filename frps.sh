@@ -52,10 +52,6 @@ vhost_https_port = 7000
 dashboard_addr = 0.0.0.0
 dashboard_port = 7500
 
-# frps控制台 用户名密码，默认都为 admin
-dashboard_user = ${set_dashboard_user}
-dashboard_pwd = ${set_dashboard_pwd}
-
 # 日志文件
 log_file = ${FRPS_LOG}
 
